@@ -1,0 +1,21 @@
+@   IN  SOA    dns.example.com. root.example.com. (
+                                                1001    ;Serial
+                                                3H      ;Refresh
+                                                15M     ;Retry
+                                                1W      ;Expire
+                                                1D      ;Minimum TTL
+                                                )
+
+;DNS infromation
+@      IN  NS    dns.example.com.
+
+;IP address of DNS
+dns IN  A      10.10.10.2
+
+;Mail exchange
+example.com. IN  MX 10   mail.example.com.
+
+;A Records ( HostName -> IP Address )
+www     IN  A       10.10.10.11
+nginx   IN  A       10.10.10.11
+mail    IN  A       10.10.10.15
