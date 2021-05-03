@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-    config.vm.define "dns" do |nginx|
+    config.vm.define "dns" do |dns|
         dns.vm.hostname = "dns.example.com"
         dns.vm.box = "generic/centos7"
         dns.vm.network "private_network", ip: "10.10.10.2"
