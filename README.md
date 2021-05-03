@@ -9,7 +9,7 @@ Install Vagrant (download from Vagrantup.com & simple next,next,next)
 
 1. Download zip & unzip this GitHub repository
 
-or
+   or
 ```bash
 git clone https://github.com/kpsysops/vagranting-dns.git
 ```
