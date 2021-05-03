@@ -1,4 +1,4 @@
-# vagranting-nginx
+# vagranting-dns
 [quickLabs] Setup dns (bind9) in VMs on your local workstation with Vagrant 
 
 ## Windows prerequsits 
