@@ -3,6 +3,11 @@ echo "Instaling DNS resoultion for example.com with bind9" | logger
 #Install dns packages
 sudo yum -y install bind bind-utils 
 #Copy config files from vagrant dir (no addional changes needed) 
+cp /vagrant/10.10.10.db /var/named/10.10.10.db
+cp /vagrant/example.com.db  /var/named/example.com.db
+
+chown root:named /var/named/10.10.10.db
+chown root:named /var/named/example.com.db
 
 
 #Start and enable dns daemon (bind9)
