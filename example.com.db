@@ -19,3 +19,5 @@ example.com. IN  MX 10   mail.example.com.
 www     IN  A       10.10.10.11
 nginx   IN  A       10.10.10.11
 mail    IN  A       10.10.10.15
+swarm1  IN  A       10.10.10.21
+swarm2  IN  A       10.10.10.22

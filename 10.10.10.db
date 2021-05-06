@@ -16,3 +16,5 @@
 11     IN PTR www.example.com.
 11     IN PTR nginx.example.com.
 15     IN PTR mail.example.com.
+21     IN PRT swarm1.example.com
+22     IN PRT swarm2.example.com
