@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
         dns.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: ".git/"
         dns.vm.provider "virtualbox" do |vb|
             vb.cpus = "1"
-            vb.memory = "1024"
+            vb.memory = "512"
             vb.customize ["modifyvm", :id, "--groups", "/vagranting"]
             vb.name = "dns"
         end
