@@ -15,8 +15,8 @@
 ;PTR Records ( IP Address -> HostName )
 11     IN PTR www.example.com.
 11     IN PTR nginx.example.com.
-12     IN PRT gitlab.example.com.
-13     IN PRT jenkins.example.com.
+12     IN PTR gitlab.example.com.
+13     IN PTR jenkins.example.com.
 15     IN PTR mail.example.com.
-21     IN PRT swarm1.example.com
-22     IN PRT swarm2.example.com
+21     IN PTR swarm1.example.com
+22     IN PTR swarm2.example.com
