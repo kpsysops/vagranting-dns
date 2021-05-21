@@ -1,5 +1,7 @@
 # vagranting-dns
-[quickLabs] Setup dns in VMs on your local workstation with Vagrant 
+[quickLabs] Setup dns in VBOX VM on your local workstation with Vagrant.
+            This is a part of vagranting project. 
+            If you want to use all vagrating VMs together,  use it for name resolution. 
 
 
 
