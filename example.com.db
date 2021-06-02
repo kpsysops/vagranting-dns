@@ -1,5 +1,5 @@
 @   IN  SOA    dns.example.com. root.example.com. (
-                                                1001    ;Serial
+                                                1002    ;Serial
                                                 3H      ;Refresh
                                                 15M     ;Retry
                                                 1W      ;Expire
@@ -23,4 +23,4 @@ jenkins IN  A       10.10.10.13
 mail    IN  A       10.10.10.15
 swarm1  IN  A       10.10.10.21
 swarm2  IN  A       10.10.10.22
-
+ldp     IN  A       10.10.10.3

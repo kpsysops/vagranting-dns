@@ -1,5 +1,5 @@
 @   IN  SOA    dns.example.com. root.example.com. (
-                                                1001    ;Serial     
+                                                1002    ;Serial     
                                                 3H      ;Refresh    
                                                 15M     ;Retry      
                                                 1W      ;Expire     
@@ -13,6 +13,7 @@
 2  IN  PTR      dns.example.com.
 
 ;PTR Records ( IP Address -> HostName )
+3      IN PTR ldp.example.com.
 11     IN PTR www.example.com.
 11     IN PTR nginx.example.com.
 12     IN PTR gitlab.example.com.
